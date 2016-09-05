@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1004]C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll</TopNode>
+  <SelectedNode>[0-1004]C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1004]C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]FrontEnd" Expanded="true" />
+    <Node UniqueName="[0-1006]FrontEnd.Features" Expanded="true" />
+    <Node UniqueName="[0-1000]FrontEnd.Features.ExampleTestFromBackEndFeature" Expanded="true" />
+    <Node UniqueName="[0-1007]FrontEnd.Features.Selenium" Expanded="true" />
+    <Node UniqueName="[0-1002]FrontEnd.Features.Selenium.SeleniumTestFeature" Expanded="true" />
+    <Node UniqueName="[0-1003]FrontEnd.Features.Selenium.SeleniumTestFeature.SeleniumSimple" Checked="true" />
+  </Nodes>
+</VisualState>

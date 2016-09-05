@@ -1,0 +1,9 @@
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\obj\Debug\PTAQ.csprojResolveAssemblyReference.cache
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\PTAQ.dll.config
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\PTAQ.dll
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\PTAQ.pdb
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\nunit.framework.dll
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\TechTalk.SpecFlow.dll
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\nunit.framework.xml
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\obj\Debug\PTAQ.dll
+C:\PTAQ\VS\ptaq\PTAQ\PTAQ\obj\Debug\PTAQ.pdb

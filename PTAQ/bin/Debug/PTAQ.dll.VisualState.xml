@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1025]D:\Work\BackEnd-master\PTAQ\bin\Debug\PTAQ.dll</TopNode>
+  <SelectedNode>[0-1025]D:\Work\BackEnd-master\PTAQ\bin\Debug\PTAQ.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1025]D:\Work\BackEnd-master\PTAQ\bin\Debug\PTAQ.dll" Expanded="true" />
+    <Node UniqueName="[0-1026]BackEnd" Expanded="true" />
+    <Node UniqueName="[0-1027]BackEnd.Features" Expanded="true" />
+    <Node UniqueName="[0-1030]BackEnd.Features.Demo" Expanded="true" Checked="true" />
+    <Node UniqueName="[0-1018]BackEnd.Features.Demo.DataFlowAndDataQualityTestFeature.VerifySums" Expanded="true" />
+    <Node UniqueName="[0-1004]BackEnd.Features.Presentation.CheckCountsFeature" Expanded="true" />
+    <Node UniqueName="[0-1029]BackEnd.Features.Presentation.ComparisonTests" Expanded="true" />
+    <Node UniqueName="[0-1006]BackEnd.Features.Presentation.ComparisonTests.DownloadDataFromTableFeature" Expanded="true" />
+    <Node UniqueName="[0-1007]BackEnd.Features.Presentation.ComparisonTests.DownloadDataFromTableFeature.DwonloadSpecificDataFromHumanResources_EmployeeTable" Expanded="true" />
+    <Node UniqueName="[0-1012]BackEnd.Features.Presentation.ComparisonTests.UploadDataFromFileIntoTableFeature" Expanded="true" />
+    <Node UniqueName="[0-1000]BackEnd.Features.Presentation.ExecuteQueryFromFileFeature" Expanded="true" />
+    <Node UniqueName="[0-1002]BackEnd.Features.Presentation.RunCMDFeature" Expanded="true" />
+  </Nodes>
+</VisualState>

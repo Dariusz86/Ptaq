@@ -1,0 +1,17 @@
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\chromedriver.exe
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.pdb
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\nunit.framework.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\PTAQ.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\TechTalk.SpecFlow.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\WebDriver.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\WebDriver.Support.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\PTAQ.pdb
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\nunit.framework.xml
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\WebDriver.xml
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\WebDriver.Support.xml
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\obj\Debug\FrontEnd.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\EPPlus.dll
+C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\EPPlus.xml

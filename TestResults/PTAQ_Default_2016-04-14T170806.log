@@ -1,0 +1,27 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\PTAQ\VS\ptaq\PTAQ\PTAQ\bin\Debug\PTAQ.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PTAQ/Default - 
+#1: Default - 
+#2: PTAQ - 
+#3: Demo_SimpleDB - 
+#4: Print query - TestAssembly:PTAQ/Feature:Demo_SimpleDB/Scenario:Print+query
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for PTAQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\dszudrzynski\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I run query: Insert into [HumanResources].[Department] Values ('TestName', 'TestGroupName', '20160414')
+T:Insert into [HumanResources].[Department] Values ('TestName', 'TestGroupName', '20160414')
+T:done: MainSteps.GivenIRunQueryInsertIntoHumanResources_DepartmentValues("Insert into [Huma...") (0,0s)
+Test #4 is finished on thread #0 as Succeeded within 0,810579 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

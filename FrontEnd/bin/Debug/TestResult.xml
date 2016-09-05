@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-07-05" time="11:55:09">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug" machine-name="GPLPL0026" user="e-dzsi" user-domain="GFT" />
+  <culture-info current-culture="pl-PL" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Failure" success="False" time="11.642" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Failure" success="False" time="11.630" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="11.627" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Selenium" executed="True" result="Failure" success="False" time="11.612" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="SeleniumTestFeature" executed="True" result="Failure" success="False" time="11.609" asserts="0">
+                    <results>
+                      <test-case name="FrontEnd.Features.Selenium.SeleniumTestFeature.SeleniumSimple" executed="True" result="Error" success="False" time="11.302" asserts="0">
+                        <categories>
+                          <category name="mytag" />
+                        </categories>
+                        <failure>
+                          <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                          <stack-trace><![CDATA[at OpenQA.Selenium.Remote.RemoteWebDriver.GetElementsFromResponse(Response response)
+at FrontEnd.Steps.FrontEndBasic.GoToPage(String page) in C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\Steps\FrontEndBasic.cs:line 19
+at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+at FrontEnd.Features.Selenium.SeleniumTestFeature.ScenarioCleanup() in C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\Features\Selenium\SeleniumTest.feature.cs:line 0
+at FrontEnd.Features.Selenium.SeleniumTestFeature.SeleniumSimple() in C:\PTAQ\VS\ptaq\PTAQ\FrontEnd\Features\Selenium\SeleniumTest.feature:line 6
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
