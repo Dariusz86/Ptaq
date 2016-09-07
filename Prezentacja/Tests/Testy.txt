@@ -1,0 +1,11 @@
+1) Weryfikacja iloœci wierszy bez za³adowania danych do tabeli QA.
+0 VS 504
+1a) Weryfikacja poszczególnych wierszy z u¿yciem klauzuli where.
+
+2) Weryfikacja jakoœci danych u¿ywaj¹c excepta
+	a) na wszystkich kolumnach- problem z modified data
+	b) na kluczowych kolumnach- problem z kolorem dla ProductID = 940
+	
+3) Weryfikacja jakoœci danych z u¿yciem zapytañ agreguj¹cych- sumy. Jedna z sum z b³edem.
+
+4) Porównywanie outputów bazy danych / plików p³askich i zapisywanie ró¿nic do Excela
