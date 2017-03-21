@@ -16,5 +16,11 @@ namespace FrontEnd.SetUp
         {
             //Driver.Initialize();
         }
+
+        [AfterTestRun]
+        public static void AfterTest()
+        {
+            //Driver.DriverTearDown();
+        }
     }
 }

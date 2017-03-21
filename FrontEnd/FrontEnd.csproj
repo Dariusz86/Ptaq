@@ -46,40 +46,29 @@
     <Reference Include="TechTalk.SpecFlow">
       <HintPath>..\packages\SpecFlow.2.0.0\lib\net45\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.2.53.0\lib\net40\WebDriver.dll</HintPath>
+    <Reference Include="WebDriver, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.3.0\lib\net40\WebDriver.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="WebDriver.Support, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.Support.2.53.0\lib\net40\WebDriver.Support.dll</HintPath>
+    <Reference Include="WebDriver.Support, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.3.0\lib\net40\WebDriver.Support.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\Pages.cs" />
-    <Compile Include="Config\XPathElements.cs" />
-    <Compile Include="Controllers\Driver.cs" />
-    <Compile Include="Features\Selenium\SeleniumTest.feature.cs">
+    <Compile Include="Features\SeleniumTests\SeleniumTest.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SeleniumTest.feature</DependentUpon>
     </Compile>
+    <Compile Include="Pages\MainPage.cs" />
+    <Compile Include="Pages\TableListPage.cs" />
     <Compile Include="SetUp\InitializeSeleniumTest.cs" />
-    <Compile Include="Steps\DB.cs" />
-    <Compile Include="Features\ExampleTestFromBackEnd.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ExampleTestFromBackEnd.feature</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Steps\FrontEndBasic.cs" />
+    <Compile Include="Steps\FrontEndMain.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\ExampleTestFromBackEnd.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ExampleTestFromBackEnd.feature.cs</LastGenOutput>
-    </None>
-    <None Include="Features\Selenium\SeleniumTest.feature">
+    <None Include="Features\SeleniumTests\SeleniumTest.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SeleniumTest.feature.cs</LastGenOutput>
     </None>
@@ -91,14 +80,9 @@
       <Name>BackEnd</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Content Include="..\packages\Selenium.WebDriver.ChromeDriver.2.21.0.0\driver\chromedriver.exe">
-      <Link>chromedriver.exe</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Actions\" />
+    <Content Include="chromedriver.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
