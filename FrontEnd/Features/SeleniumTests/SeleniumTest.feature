@@ -12,6 +12,6 @@ Then I close browser
 	#Given I run Chrome browser and go to http://gofortesting.gft.com/#/menu
 
 
-@mytag
-Scenario: Verify elements on table-list page
-	Given I run Chrome browser and go to http://gofortesting.gft.com/#/table-list
+#@mytag
+#Scenario: Verify elements on table-list page
+#	Given I run Chrome browser and go to http://gofortesting.gft.com/#/table-list

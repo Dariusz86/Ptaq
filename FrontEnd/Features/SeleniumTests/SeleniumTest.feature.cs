@@ -85,21 +85,6 @@ testRunner.Then("I close browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(
 #line hidden
             this.ScenarioCleanup();
         }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Verify elements on table-list page")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void VerifyElementsOnTable_ListPage()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify elements on table-list page", new string[] {
-                        "mytag"});
-#line 16
-this.ScenarioSetup(scenarioInfo);
-#line 17
- testRunner.Given("I run Chrome browser and go to http://gofortesting.gft.com/#/table-list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-            this.ScenarioCleanup();
-        }
     }
 }
 #pragma warning restore
