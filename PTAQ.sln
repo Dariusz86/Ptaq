@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "PTAQ\BackEnd.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{575358BA-16CD-4465-B1F6-B72615FA84FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndExample", "FrontEndExample\FrontEndExample.csproj", "{B70BC8BC-AFC8-4428-BA1F-EA011939E8F1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{575358BA-16CD-4465-B1F6-B72615FA84FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{575358BA-16CD-4465-B1F6-B72615FA84FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{575358BA-16CD-4465-B1F6-B72615FA84FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B70BC8BC-AFC8-4428-BA1F-EA011939E8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B70BC8BC-AFC8-4428-BA1F-EA011939E8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B70BC8BC-AFC8-4428-BA1F-EA011939E8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B70BC8BC-AFC8-4428-BA1F-EA011939E8F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
